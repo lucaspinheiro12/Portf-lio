@@ -1,0 +1,146 @@
+.title__div{
+	display: flex;
+	justify-content:center;
+}
+
+.title__profile{
+	text-align: center;
+	margin-top: 3%;
+	order: 2;
+	border-radius: 50%;
+	width: 368px;
+	height: 368px;
+}
+.title__container{
+	margin-top: 10%;
+	width: 60%;
+}
+.title__bio{
+	color: #464646;
+	text-align: center;
+	font-size: 50px;
+	line-height: 60px;
+}
+.title__subsection{
+	color: #464646;
+	margin-top: 2%;
+	text-align: center;
+	font-size: 22px;
+	line-height: 26px;
+}
+
+.title__network{
+	display: flex;
+	margin-top: 2%;
+	justify-content: center;
+}
+
+.title__network li a:nth-child(4n){
+	margin-right: 0;
+}
+
+.title__network li a{
+	text-decoration: none;
+	color: #464646;
+	margin-right: 15px;
+}
+
+@media (max-width: 380px){
+	.title__div{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.title__div .title__profile{
+		order: -1;
+	}
+
+	.title__profile{
+		Width: 98px;
+		Height: 98px;
+		margin: 16px 0 0 16px;
+	}
+
+	.title__container{
+		display: flex;
+		margin-top:4%;
+		flex-direction: column;
+		width: 328px
+	}
+	.title__bio{
+		margin: 0 16px 0 16px;
+		text-align: left;
+		height: 52px;
+		font-size: 22px;
+		line-height: 26px;
+		color: #464646;
+	}
+
+	.title__subsection{
+		margin: 16px 16px 0 16px;
+		height: 48px;
+		color: #464646;
+		text-align: left;
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+	.title__network{
+		margin: 0 0 16px 16px;
+		width: 328px;
+		display: flex;
+		
+	}
+
+	.title__network li a{
+		margin:0 8.5px 0px 0;
+		text-decoration: none;
+		color: #464646;
+	}
+
+	.title__network__item{
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+}
+
+@media(min-width:381px) and (max-width:800px){
+	.title__div{
+		display: flex;
+		justify-content: space-around;
+	}	
+
+	.title__profile{
+		margin-top: 0;
+		width: 146px;
+		height: 146px;
+	}
+	.title__container{
+		margin-top: 4%;
+	}
+
+	.title__bio{
+		margin-top: 11px;
+		text-align: left;
+		font-size: 22px;
+		line-height: 26px;
+		color: #464646;
+	}
+
+	.title__subsection{
+		margin-top: 11px;
+		text-align: left;
+		font-size: 16px;
+		line-height: 19px;
+		color: #464646;		
+	}
+
+	.title__network{
+		margin-top: 15px;
+		width: 467px;
+		height: 24px;
+		color: #464646;
+		justify-content: space-around;
+	}
+}	

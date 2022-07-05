@@ -1,0 +1,36 @@
+.footer__rodape{
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	padding: 32px;
+	font-size: 16px;
+	line-height: 19px;
+	color: #464646;
+}
+
+@media(max-width: 380px){
+	.footer{
+		width: 360px;
+		height: 102px;
+	}
+	.footer__rodape{
+		padding: 0;
+		color: #464646;
+		font-size: 15px;
+		line-height: 19px;
+	}
+}
+@media(min-width:381px) and (max-width:800px){
+	.footer{
+		width: auto;
+		height: 102px;
+	}
+	.footer__rodape{
+		padding: 0;
+		margin: 32px 0 32px 0;
+		color: #464646;
+		font-size: 16px;
+		line-height: 19px;
+	}	
+}

@@ -1,0 +1,159 @@
+.experience__section__title{
+	margin-top:100px ;
+	color: #464646;
+	text-align: center;
+	font-size: 32px;
+	line-height: 38px;
+}
+
+.experiencie__box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.experience__img{
+	margin-top: 53.5px;
+	width: 752px;
+	height: 406px;
+	margin-right: 26px;
+}
+
+.experience__info{
+	width: 368px;
+	height: 52px;
+	display: flex;
+	flex-direction: column;
+}
+
+.experience__title{
+	font-size: 22px;
+	line-height: 26px;
+	color: #464646;
+}
+
+.experience__text{
+	color: #464646;
+	font-size: 16px;
+	line-height: 19px;
+	margin-top: 8px;
+}
+.experiencia__botao--repo{
+	height: 35px;
+	width: 100px;	
+	color: #2A7AE4;
+	font-size: 16px;
+	line-height: 19px;
+	border-color: #2A7AE4;
+	cursor:pointer;
+	margin-right: 10px;
+}
+
+.experience__description .experiencia__botao--demo{
+	background: #2A7AE4;
+	margin-top:8px;
+}
+.experiencia__botao--demo{
+	width: 89px;
+	height: 35px;
+	border: none;
+	color: #ffffff ;
+	font-size: 16px;
+	line-height: 19px;
+	cursor: pointer;
+}
+
+#experience_description{
+	order: -1;
+}
+
+@media (max-width: 380px){
+	.experience__section__title{
+		margin-top: 32px;
+		color: #464646;
+		font-size: 22px;
+		line-height: 26px;
+		text-align: center;
+	}
+
+	.experiencie__box{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 360px;
+	}
+
+	.experience__img{
+		margin-top: 16px;
+		width: 296px;
+		height: 144px
+	}
+
+	.experience__info{
+		margin-top: 16px;
+		width: 296px;
+		height: 91px;
+		align-items: flex-start;
+	}
+	
+	#experience_description{
+		order:0;
+	}	
+
+	.experience__title{
+		color: #464646;
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	.experience__text{
+		color: #464646;
+		font-size: 14px;
+		line-height: 16px;
+	}
+}
+@media(min-width:381px) and (max-width:800px){
+	.experience__section__title{
+		margin-top: 32px;
+		color: #464646;
+		font-size: 22px;
+		line-height: 26px;
+	}
+
+	.experiencie__box{
+		margin-left: 30px;
+		display: flex;
+		flex-direction: column;
+		width:auto;
+		align-items:stretch;
+	}
+
+	.experience__img{
+		margin-right: 0;
+		justify-content: space-between;
+		width: auto;
+		height: 320px
+	}
+
+	.experience__info{
+		margin-top: 16px;
+		height: 91px;
+		align-items: flex-start;
+	}			
+
+	#experience_description{
+		order: 1;
+	}
+
+	.experience__title{
+		color: #464646;
+		font-size: 16px;
+		line-height: 19px;
+	}	
+
+	.experience__text{
+		color: #464646;
+		font-size: 14px;
+		line-height: 16px;
+	}
+}

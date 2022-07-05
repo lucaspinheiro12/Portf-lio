@@ -1,0 +1,93 @@
+.hobbies__title{
+	color: #464646;
+	text-align: center;
+	font-size: 32px;
+	line-height: 38px;
+	margin-top: 5%;
+}
+
+.hobbies__line{
+	display: flex;
+	justify-content: space-around;
+}
+
+.hobbies__box{
+	background:#ffffff;
+	width: 176px;
+	height: 174px;
+}
+
+.hobbies__box ul{
+	margin: 94px 16px 120px 43px;
+}
+
+.hobbies__img{
+	width: 40px;
+	height: 37px;
+}
+
+.hobbies__name{
+	color: #464646;
+	margin-top: 5px;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+@media (max-width: 380px){
+	.hobbies__title{
+		color: #464646;
+		margin-top: 16px;
+		font-size: 22px;
+		line-height: 26px;
+	}
+
+	.hobbies__line{
+		display: flex;
+		margin-top: 32px;
+		width: 360px;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.hobbies__box ul{
+		margin:38px 43px 116px 16px;
+	}
+
+	.hobbies__box{
+		margin-top: 32px;
+		width: 156px;
+		height: 118px;
+	}
+
+	.hobbies__img{
+	width: 24px;
+	height: 37px;
+	}
+}	
+@media (min-width:381px) and (max-width:800px){
+	.hobbies__title{
+		margin-bottom: 32px;
+		color: #464646;
+		text-align: center;
+		font-size: 22px;
+		line-height: 26px;
+	}
+
+	.hobbies__line{
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.hobbies__box{
+		width: 224px;
+		height: 118px;
+	}
+
+	.hobbies__box ul{
+		margin: 38px 43px 180px 16px;
+	}
+	.hobbies__img{
+		width: 29.33px;
+		height: 24px;
+	}
+}	

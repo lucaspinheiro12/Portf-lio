@@ -1,0 +1,184 @@
+.formcontato__contacto{
+	display: flex;
+	justify-content:center;
+	background: #EAF2FD;
+	margin-top: 32px;
+
+}
+
+.formcontato__img{
+	width: 464px;
+	height: 593px;
+	margin-right: 16px;
+}
+
+.input-mensagem-erro-nome{
+	display: none;
+}
+
+.input-mensagem-erro-email{
+	display: none;
+}
+
+.input-mensagem-erro-assunto{
+	display: none;
+}
+
+.input-mensagem-erro-text{
+	display: none;
+}
+
+.input-container--invalido{
+	display: block;
+	color: red;
+}
+.formcontato__text{
+	display: flex;
+	flex-direction: column;
+}
+
+.formcontato__title{
+	font-size: 32px;
+	line-height: 38px;
+	color: #464646
+}
+
+.formcontato__subtext{
+	font-size: 16px;
+	line-height: 19px;
+	color: #464646;
+}
+
+.formcontato__form{
+	display: flex;
+	flex-direction: column;
+}
+
+.formcontato__input{
+	color: #A2A2A2;
+	background: #ffffff;
+	margin-top: 40px;
+	width: 656px;
+	height: 53px;
+	border-radius: 4px;
+}
+
+.formcontato__textarea{
+	margin-top: 32px;	
+	width: 656px;
+	height: 133px;
+	background: #FFFFFF;
+	border-radius: 4px;
+}
+
+.formcontato__botao{
+	margin-top: 13px;
+	border: none;
+	width:149px ;
+	height:35px ;
+	background: #2A7AE4;
+	font-size: 16px;
+	line-height: 19px;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+@media(max-width: 380px){
+	.formcontato{
+		width: 360px;
+		height: 675px
+	}
+
+	.formcontato__contacto{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.formcontato--esquerda{
+		display: none;	
+	}
+
+	.formcontato__title{
+		color: #464646;
+		margin: 32px 0 8px 32px;
+		font-size: 22px;
+		line-height: 26px;
+	}
+
+	.formcontato__subtext{
+		color: #464646;
+		font-size: 16px;
+		line-height: 19px;
+		align-items: center;
+		margin-left: 32px ;
+	}
+
+	.formcontato__form{
+		width: 360px;
+		align-items: center;
+	}
+
+	.formcontato__input{
+		background: #ffffff;
+		border-radius: 4px;
+		width: 296px;
+		height: 56px;
+	}
+
+	.formcontato__textarea{
+		background: #ffffff;
+		border-radius: 4px;
+		width: 296px;
+		height: 133px;			
+	}
+
+	.formcontato__botao{
+		align-items: flex-start;
+	}
+}
+@media(min-width:381px) and (max-width:800px){
+		.formcontato{
+	width: auto;
+	height: 637px;
+	}
+
+	.formcontato__contacto{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.formcontato--esquerda{
+		display: none;	
+	}
+	.formcontato__title{
+		color: #464646;
+		margin: 32px 0 8px 32px;
+		font-size: 22px;
+		line-height: 26px;
+	}
+	.formcontato__subtext{
+		color: #464646;
+		font-size: 16px;
+		line-height: 19px;
+		align-items: center;
+		margin-left: 32px ;
+	}
+
+	.formcontato__form{
+		align-items: center;
+	}
+
+	.formcontato__input{
+		background: #ffffff;
+		border-radius: 4px;
+		width: 90%;
+		height: 56px;
+	}
+
+	.formcontato__textarea{
+		background: #ffffff;
+		border-radius: 4px;
+		width: 90%;
+		height: 133px;			
+	}
+}
